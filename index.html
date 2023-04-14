@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__flex">
+            <a href="#" class="header__logo">
+              <div class="logo__block">
+                <img
+                  src="assets/img/svg/logo_vector.svg"
+                  alt="logo_image"
+                  class="logo__img"
+                />
+                <p class="logo__text">Plants</p>
+              </div>
+            </a>
+            <button class="header__burger">
+              <div class="header-burger__line"></div>
+              <div class="header-burger__line"></div>
+              <div class="header-burger__line"></div>
+              <div class="header-burger__line"></div>
+            </button>
+            <nav class="header__navigation">
+              <ul class="header__list">
+                <li class="header__item"><a href="#welcome">Home</a></li>
+                <li class="header__item"><a href="#about">About us</a></li>
+                <li class="header__item"><a href="#service">Service</a></li>
+                <li class="header__item"><a href="#price">Price</a></li>
+                <li class="header__item"><a href="#contacts">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section id="welcome" class="welcome">
+          <div class="container">
+            <div class="welcome__flex">
+              <div class="welcome__item welcome__img"></div>
+              <div class="welcome__item">
+                <div class="welcome__text-block">
+                  <div class="text-block__item">
+                    <h1 class="text-block__title">
+                      We grow <span>plants</span> and give you oxygen
+                    </h1>
+                  </div>
+                  <div class="text-block__item">
+                    <p class="text-block__text">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s.
+                    </p>
+                  </div>
+                  <div class="text-block__item">
+                    <button class="text-block__button">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about">
+          <div class="container">
+            <div class="about__flex">
+              <div class="about__item">
+                <img
+                  src="assets/img/houseplant_1.png"
+                  alt="houseplant"
+                  class="about__img"
+                />
+              </div>
+              <div class="about__item">
+                <div class="about__text-block">
+                  <div class="about-text-block__item--title">
+                    <h2 class="about-text-block__title">
+                      We are <span>professional experienced</span> gardeners
+                    </h2>
+                  </div>
+                  <div class="about-text-block__item">
+                    <p class="about-text-block__text">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining essentially unchanged.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="service" class="service">
+          <div class="container">
+            <div class="service__flex">
+              <h2 class="service__title">Service and our projects</h2>
+              <div class="service__menu">
+                <button id="gardens" class="service-menu__button">
+                  Gardens
+                </button>
+                <button id="lawn" class="service-menu__button">Lawn</button>
+                <button id="planting" class="service-menu__button">
+                  Planting
+                </button>
+              </div>
+            </div>
+            <div class="service__products">
+              <div class="service-products__flex">
+                <div class="service-products__img">
+                  <picture>
+                    <source
+                      srcset="assets/img/first.jpg"
+                      media="(min-width:831px)"
+                    />
+                    <source
+                      srcset="assets/img/first_768.png"
+                      media="(max-width:830px)"
+                    />
+                    <img src="assets/img/second.png" alt="first_image" />
+                  </picture>
+                </div>
+                <div class="service-products__title">Garden care</div>
+                <div class="service-products__text">
+                  Lorem Ipsum has been the industry
+                </div>
+              </div>
+              <div class="service-products__flex">
+                <div class="service-products__img">
+                  <picture>
+                    <source
+                      srcset="assets/img/second.png"
+                      media="(min-width:831px)"
+                    />
+                    <source
+                      srcset="assets/img/second_768.png"
+                      media="(max-width:830px)"
+                    />
+                    <img src="assets/img/second.png" alt="second_image" />
+                  </picture>
+                </div>
+                <div class="service-products__title">Planting</div>
+                <div class="service-products__text">
+                  Lorem Ipsum has been the industry
+                </div>
+              </div>
+              <div class="service-products__flex">
+                <div class="service-products__img">
+                  <picture>
+                    <source
+                      srcset="assets/img/third.png"
+                      media="(min-width:831px)"
+                    />
+                    <source
+                      srcset="assets/img/third_768.png"
+                      media="(max-width:830px)"
+                    />
+                    <img src="assets/img/second.png" alt="second_image" />
+                  </picture>
+                </div>
+                <div class="service-products__title">Lawn care</div>
+                <div class="service-products__text">
+                  Lorem Ipsum has been the industry
+                </div>
+              </div>
+              <div class="service-products__flex">
+                <div class="service-products__img">
+                  <picture>
+                    <source
+                      srcset="assets/img/fourth.png"
+                      media="(min-width:831px)"
+                    />
+                    <source
+                      srcset="assets/img/fourth_768.png"
+                      media="(max-width:830px)"
+                    />
+                    <img src="assets/img/second.png" alt="second_image" />
+                  </picture>
+                </div>
+                <div class="service-products__title">Planting</div>
+                <div class="service-products__text">
+                  Lorem Ipsum has been the industry
+                </div>
+              </div>
+              <div class="service-products__flex">
+                <div class="service-products__img">
+                  <picture>
+                    <source
+                      srcset="assets/img/five.png"
+                      media="(min-width:831px)"
+                    />
+                    <source
+                      srcset="assets/img/five_768.png"
+                      media="(max-width:830px)"
+                    />
+                    <img src="assets/img/second.png" alt="second_image" />
+                  </picture>
+                </div>
+                <div class="service-products__title">Garden care</div>
+                <div class="service-products__text">
+                  Lorem Ipsum has been the industry
+                </div>
+              </div>
+              <div class="service-products__flex">
+                <div class="service-products__img">
+                  <picture>
+                    <source
+                      srcset="assets/img/six.png"
+                      media="(min-width:831px)"
+                    />
+                    <source
+                      srcset="assets/img/six_768.png"
+                      media="(max-width:830px)"
+                    />
+                    <img src="assets/img/second.png" alt="second_image" />
+                  </picture>
+                </div>
+                <div class="service-products__title">Planting</div>
+                <div class="service-products__text">
+                  Lorem Ipsum has been the industry
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="price" class="prices">
+          <div class="container">
+            <div class="prices__flex">
+              <div class="prices__item">
+                <h2 class="prices__title">Prices</h2>
+                <div class="prices__packets">
+                  <div class="prices__packet">
+                    <div class="prices__button">
+                      <p>Basics</p>
+                      <div class="prices__circle">
+                        <svg class="prices__svg">
+                          <use xlink:href="assets/svg/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="prices__horizontal"></div>
+                    <div class="prices__about">
+                      <p class="prices-about__text">
+                        Release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently
+                      </p>
+                      <p class="prices-about__price">
+                        <span>$15</span> / per hour
+                      </p>
+                      <a href="#contacts" class="prices-about__button">Order</a>
+                    </div>
+                  </div>
+                  <div class="prices__packet">
+                    <div class="prices__button">
+                      <p>Standard</p>
+                      <div class="prices__circle">
+                        <svg class="prices__svg">
+                          <use xlink:href="assets/svg/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="prices__horizontal"></div>
+                    <div class="prices__about">
+                      <p class="prices-about__text">
+                        Release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently
+                      </p>
+                      <p class="prices-about__price">
+                        <span>$25</span> / per hour
+                      </p>
+                      <a href="#contacts" class="prices-about__button">Order</a>
+                    </div>
+                  </div>
+                  <div class="prices__packet">
+                    <div class="prices__button">
+                      <p>Pro care</p>
+                      <div class="prices__circle">
+                        <svg class="prices__svg">
+                          <use xlink:href="assets/svg/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="prices__horizontal"></div>
+                    <div class="prices__about">
+                      <p class="prices-about__text">
+                        Release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently
+                      </p>
+                      <p class="prices-about__price">
+                        <span>$35</span> / per hour
+                      </p>
+                      <a href="#contacts" class="prices-about__button">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="prices__item prices__contact">
+                <p class="prices-contact__title">
+                  Our best <span>gardeners</span> are ready to help you
+                </p>
+                <button class="prices-contact__button">Contact us</button>
+                <div class="prices-contact__img"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contacts" class="contacts">
+          <div class="container">
+            <div class="contacts__flex">
+              <img
+                src="assets/img/contactwoman_1.png"
+                alt="woman"
+                class="contacts__img"
+              />
+              <h2 class="contacts__title">Contact us</h2>
+              <div class="contacts__form">
+                <div class="contacts__select">
+                  <p class="contacts-select__text">City</p>
+                  <div class="contacts-select__circle">
+                    <svg class="contacts-select__svg">
+                      <use xlink:href="assets/svg/sprite.svg#arrow"></use>
+                    </svg>
+                  </div>
+                </div>
+                <ul class="contacts__cities">
+                  <li class="contacts__city">
+                    <button class="contacts-cities__button">
+                      Canandaigua, NY
+                    </button>
+                  </li>
+                  <li class="contacts__city">
+                    <button class="contacts-cities__button">
+                      New York City
+                    </button>
+                  </li>
+                  <li class="contacts__city">
+                    <button class="contacts-cities__button">Yonkers, NY</button>
+                  </li>
+                  <li class="contacts__city">
+                    <button class="contacts-cities__button">
+                      Sherrill, NY
+                    </button>
+                  </li>
+                </ul>
+                <div class="contacts__card">
+                  <div class="contacts-card__city contacts-card__item">
+                    <p class="contacts-card__article">City:</p>
+                    <p class="contacts-card__text">Yonkers, NY</p>
+                  </div>
+                  <div class="contacts-card__phone contacts-card__item">
+                    <p class="contacts-card__article">Phone:</p>
+                    <p class="contacts-card__text">+1 914 678 0003</p>
+                  </div>
+                  <div class="contacts-card__adress contacts-card__item">
+                    <p class="contacts-card__article">Office adress:</p>
+                    <p class="contacts-card__text">511 Warburton Ave</p>
+                  </div>
+                  <button class="contacts-card__button">Call us</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__grid">
+            <div class="footer__data">
+              <p class="footer-data__icon footer-data__item">©</p>
+              <p class="footer-data__year footer-data__item">2022</p>
+              <a
+                href="https://github.com/intelligentRaji"
+                class="footer-data__git footer-data__item"
+                >@intelligentRaji</a
+              >
+            </div>
+            <p class="footer__school">Rolling Scopes School</p>
+            <ul class="footer__social">
+              <li class="footer-social__item">
+                <a href="https://github.com/intelligentRaji">
+                  <svg class="footer-social__inst footer-social__icon">
+                    <use xlink:href="assets/svg/sprite.svg#Inst"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="https://github.com/intelligentRaji">
+                  <svg class="footer-social__facebook footer-social__icon">
+                    <use xlink:href="assets/svg/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="https://github.com/intelligentRaji">
+                  <svg class="footer-social__twitter footer-social__icon">
+                    <use xlink:href="assets/svg/sprite.svg#Twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__item">
+                <a href="https://github.com/intelligentRaji">
+                  <svg class="footer-social__pinterest footer-social__icon">
+                    <use xlink:href="assets/svg/sprite.svg#Pinterest"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="black">
+      <div class="overlay"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
